@@ -1,0 +1,23 @@
+/* Box-sizing border-box
+-------------------------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Header
+-------------------------------------------------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 6rem;
+  background-color: transparent;
+  transform: translateY(0);
+  transition: transform 1s cubic-bezier(0.17, 0.66, 0.34, 0.98);
+  z-index: 1;
+}

@@ -1,0 +1,119 @@
+/* Variables
+-------------------------------------------------------------- */
+
+:root {
+  // Fonts
+  --roboto: 'Roboto', sans-serif;
+  --playfair-display: 'Playfair Display', serif;
+
+  // Weights
+  --weight-extra-thin: 100;
+  --weight-thin: 200;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+  --weight-black: 900;
+}
+
+/* 
+-------------------------------------------------------------- */
+
+html {
+  font-family: var(--playfair-display);
+  font-weight: var(--weight-regular);
+  color: var(--color-text);
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--roboto);
+  font-weight: var(--weight-light);
+  font-size: 2rem;
+  line-height: 3.6rem;
+  color: var(--color-text);
+}
+
+h1 {
+  font-family: var(--playfair-display);
+  font-weight: var(--weight-regular);
+  color: var(--theme-color-one);
+  font-size: 5.5rem;
+  line-height: 7.2rem;
+  margin-bottom: 6.5rem;
+}
+
+h2 {
+  font-family: var(--playfair-display);
+  font-weight: var(--weight-regular);
+  color: var(--theme-color-one);
+  font-size: 4rem;
+  line-height: 6rem;
+  margin-bottom: 2.5rem;
+}
+
+h3,
+h4 {
+  font-family: var(--roboto);
+  font-weight: var(--weight-semi-bold);
+  color: var(--theme-color-one);
+  font-size: 2rem;
+  line-height: 3.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  margin-bottom: 5rem;
+  margin-bottom: 3.3rem;
+}
+
+a {
+  color: var(--theme-color-one);
+  text-decoration: none;
+  font-weight: var(--weight-light);
+  border-bottom: 0.1rem solid transparent;
+  transition: border-bottom 0.5s cubic-bezier(0.17, 0.66, 0.34, 0.98);
+  &:hover {
+    border-bottom: 0.1rem solid var(--theme-color-one);
+  }
+}
+
+ul,
+ol {
+  padding-left: 5rem;
+  margin-bottom: 3.4rem;
+  li {
+    margin-bottom: 0.5rem;
+    &::marker {
+      color: var(--theme-color-one);
+      font-weight: var(--weight-medium);
+    }
+    ul,
+    ol {
+      padding-left: 5rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+strong {
+  font-weight: var(--weight-medium);
+}
+
+mark {
+  padding: 0.3rem 0.6rem;
+  color: var(--color-heading);
+  font-style: normal;
+  font-weight: var(--weight-medium);
+  background-color: var(--theme-color-three);
+}
+
+.has-drop-cap {
+  &::first-letter {
+    color: var(--color-text);
+    font-family: var(--playfair-display);
+  }
+}

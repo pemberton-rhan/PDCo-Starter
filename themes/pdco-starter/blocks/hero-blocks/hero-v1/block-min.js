@@ -1,0 +1,1 @@
+gsap.to(".hero-v1__content-wrap",{scrollTrigger:{trigger:".hero-v1",start:"top top",markers:!1,scrub:!0},y:"-15rem"});

@@ -1,0 +1,29 @@
+// Code block
+.wp-block-code {
+  background-color: var(--theme-color-three);
+  padding: 5rem 6.3rem;
+  margin: 5.5rem 0 5.3rem;
+  code {
+    color: var(--color-text);
+    font-size: 1.6rem;
+    line-height: 4rem;
+  }
+}
+
+code {
+  color: var(--color-text);
+  background-color: var(--theme-color-three);
+  padding: 0.3rem 0.6rem;
+}
+
+// Image block
+.wp-block-image {
+  margin: 4.5rem 0 4.3rem 0;
+  .aligncenter {
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
