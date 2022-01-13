@@ -51,13 +51,21 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/admin/acf-custom-styles/acf-custom-styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/admin/acf-custom-styles/acf-custom-styles.css.map",
+		"oF": 0
+		},
 	"/admin/acf-custom-styles/acf-custom-styles.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/admin/acf-custom-styles/acf-custom-styles.css",
 		"oF": 0,
@@ -87,72 +95,6 @@
 		"oA": 0,
 		"oAP": "/blocks/hero-blocks/block-reg.php",
 		"oF": 0
-		},
-	"/blocks/hero-blocks/hero-v1/block-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/block-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/blocks/hero-blocks/hero-v1/block.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/block-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/blocks/hero-blocks/hero-v1/block.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/block-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/blocks/hero-blocks/hero-v1/block.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/block.php",
-		"oF": 0
-		},
-	"/blocks/hero-blocks/hero-v1/block.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/block.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/blocks/hero-blocks/hero-v1/header-v1.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/blocks/hero-blocks/hero-v1/header-v1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
 		},
 	"/blocks/widget-blocks/block-reg.php": {
 		"cB": 0,
@@ -202,25 +144,6 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
-	"/main.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/main-min.js",
-		"oF": 2,
-		"sC": 0,
-		"tS": 1
-		},
-	"/main.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/main.js.map",
-		"oF": 0
-		},
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -235,7 +158,7 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/main.js",
+		"oAP": "/scripts/dist.js",
 		"oF": 3,
 		"sC": 0,
 		"tS": 0
@@ -250,6 +173,25 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/scripts/dist.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/scripts/dist-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/scripts/dist.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/scripts/dist.js.map",
+		"oF": 0
 		},
 	"/scripts/vendors/gsap/gsap-main.js": {
 		"bF": 0,
@@ -281,6 +223,16 @@
 		"oAP": "/single.php",
 		"oF": 0
 		},
+	"/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -290,14 +242,6 @@
 		"oAP": "/style-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/style.css.map",
-		"oF": 0
 		},
 	"/styles/blocks/core-blocks/_core-blocks.scss": {
 		"aP": 0,
@@ -309,7 +253,7 @@
 		"oA": 1,
 		"oAP": "/styles/blocks/core-blocks/_core-blocks.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/compile.scss": {
@@ -320,9 +264,9 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/style.css",
+		"oAP": "/styles/dist.css",
 		"oF": 3,
-		"oS": 2,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/components/buttons/_buttons.scss": {
@@ -335,482 +279,103 @@
 		"oA": 1,
 		"oAP": "/styles/components/buttons/_buttons.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
-	"/styles/foundations/color/_color.scss": {
+	"/styles/dist.css": {
 		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/dist-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/styles/dist.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/styles/dist.css.map",
+		"oF": 0
+		},
+	"/styles/foundations/color/_color.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/color/_color.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/foundations/depth/_depth.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/depth/_depth.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
-		},
-	"/styles/foundations/fonts/_font-face.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/styles/foundations/fonts/_font-face.css",
-		"oF": 1,
-		"oS": 0,
-		"sct": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Black.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Black.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Black.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Black.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-BlackItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-BlackItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-BlackItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-BlackItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Bold.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Bold.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-BoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-BoldItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-BoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-BoldItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-ExtraBold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-ExtraBold.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-ExtraBold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-ExtraBold.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-ExtraBoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-ExtraBoldItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-ExtraBoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-ExtraBoldItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Italic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Italic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Italic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Italic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Medium.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Medium.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-MediumItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-MediumItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-MediumItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-MediumItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Regular.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-Regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-Regular.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-SemiBold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-SemiBold.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-SemiBold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-SemiBold.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-SemiBoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-SemiBoldItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/PlayfairDisplay-SemiBoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/PlayfairDisplay-SemiBoldItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Black.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Black.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Black.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Black.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-BlackItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-BlackItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-BlackItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-BlackItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Bold.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Bold.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-BoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-BoldItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-BoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-BoldItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Italic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Italic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Italic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Italic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Light.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Light.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-LightItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-LightItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-LightItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-LightItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Medium.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Medium.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-MediumItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-MediumItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-MediumItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-MediumItalic.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Regular.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Regular.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Thin.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Thin.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-Thin.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-Thin.woff2",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-ThinItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-ThinItalic.woff",
-		"oF": 0
-		},
-	"/styles/foundations/fonts/Roboto-ThinItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/styles/foundations/fonts/Roboto-ThinItalic.woff2",
-		"oF": 0
 		},
 	"/styles/foundations/layout/_layout.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/layout/_layout.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/foundations/misc/_reset.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/misc/_reset.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/foundations/spacing/_spacing.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/spacing/_spacing.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/foundations/typography/_typography.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/styles/foundations/typography/_typography.css",
-		"oF": 1,
-		"oS": 0,
+		"oF": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/global/_global.scss": {
@@ -823,7 +388,7 @@
 		"oA": 1,
 		"oAP": "/styles/global/_global.css",
 		"oF": 1,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
 	"/styles/posts/_single.scss": {
@@ -836,29 +401,86 @@
 		"oA": 1,
 		"oAP": "/styles/posts/_single.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"sct": 0
 		},
-	"/styles/template-parts/nav/_nav-main.scss": {
-		"aP": 0,
+	"/styles/scripts/color/_color.scss": {
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "/styles/template-parts/nav/_nav-main.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "/styles/scripts/color/_color.css",
+		"oF": 1,
+		"oS": 3,
 		"sct": 0
 		},
-	"/template-parts/nav/nav-main.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/template-parts/nav/nav-main.php",
-		"oF": 0
+	"/styles/scripts/depth/_depth.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/styles/scripts/depth/_depth.css",
+		"oF": 1,
+		"oS": 3,
+		"sct": 0
+		},
+	"/styles/scripts/layout/_layout.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/styles/scripts/layout/_layout.css",
+		"oF": 1,
+		"oS": 3,
+		"sct": 0
+		},
+	"/styles/scripts/misc/_reset.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/styles/scripts/misc/_reset.css",
+		"oF": 1,
+		"oS": 3,
+		"sct": 0
+		},
+	"/styles/scripts/spacing/_spacing.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/styles/scripts/spacing/_spacing.css",
+		"oF": 1,
+		"oS": 3,
+		"sct": 0
+		},
+	"/styles/scripts/typography/_typography.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/styles/scripts/typography/_typography.css",
+		"oF": 1,
+		"oS": 3,
+		"sct": 0
 		}
 	},
 "hooks": [
@@ -867,7 +489,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 634835745.89357197,
-	"displayValue": "pdco",
+	"displayValue": "pdco-starter",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0
@@ -2692,7 +2314,7 @@
 		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
@@ -2798,7 +2420,7 @@
 		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
@@ -2808,7 +2430,7 @@
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},

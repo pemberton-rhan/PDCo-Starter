@@ -2,7 +2,7 @@
 -------------------------------------------------------------- */
 
 // Foundations
-@use 'foundations/fonts/font-face';
+//@use 'foundations/fonts/font-face';
 @use 'foundations/misc/reset';
 @use 'foundations/color/color';
 @use 'foundations/typography/typography';
@@ -18,7 +18,6 @@
 @use 'components/buttons/buttons';
 // Page templates
 // Template parts
-@use 'template-parts/nav/nav-main';
 // Posts
 @use 'posts/single';
 
