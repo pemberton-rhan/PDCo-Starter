@@ -3,11 +3,10 @@
 
 // Foundations
 //@use 'foundations/fonts/font-face';
-@use 'foundations/misc/reset';
-@use 'foundations/color/color';
+@use 'foundations/variables/variables';
+@use 'foundations/reset/reset';
 @use 'foundations/typography/typography';
 @use 'foundations/layout/layout';
-@use 'foundations/depth/depth';
 @use 'foundations/spacing/spacing';
 
 // Global
@@ -22,4 +21,4 @@
 @use 'posts/single';
 
 // Blocks
-@use 'blocks/core-blocks/core-blocks';
+@use 'core-blocks/core-blocks';

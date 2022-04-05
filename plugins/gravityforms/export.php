@@ -388,7 +388,7 @@ class GFExport {
 		}
 
 		self::page_header();
-
+		self::maybe_process_automated_export();
 		?>
 		<script type="text/javascript">
 
@@ -459,6 +459,7 @@ class GFExport {
                         </table>
 
                         <br /><br />
+						<input type="hidden" name="gform_automatic_submit" id="gform_automatic_submit" value="false" />
                         <input type="submit" value="<?php esc_attr_e( 'Download Export File', 'gravityforms' ) ?>" name="export_forms" class="button large primary" />
                     </div>
                 </div>
@@ -468,6 +469,42 @@ class GFExport {
 
 		self::page_footer();
 
+	}
+
+	/**
+	 * Checks if form ids are provided in query to be automatically exported.
+	 *
+	 * This method checks the checkboxes of the desired forms and simulates a click on the submit button.
+	 *
+	 * @since 2.6.2
+	 *
+	 * @return void
+	 */
+	public static function maybe_process_automated_export() {
+		$export_ids       = rgget( 'export_form_ids' );
+		$automatic_submit = rgpost( 'gform_automatic_submit' );
+		if ( $export_ids && ! $automatic_submit ) {
+			?>
+			<script>
+				jQuery( document ).ready( function () {
+					var export_ids = <?php echo json_encode( $export_ids ); ?>;
+					var clickSubmit = false;
+					export_ids.split(',').forEach( ( id ) => {
+						var formCheckbox = jQuery( '#gf_form_id_' + id );
+						if( formCheckbox.length ) {
+							formCheckbox.prop( 'checked', true );
+							clickSubmit = true;
+						}
+					});
+
+					if ( clickSubmit ) {
+						jQuery( '#gform_automatic_submit' ).val( true );
+						jQuery( '#gform_export input[type="submit"]' ).click();
+					}
+				})
+			</script>
+			<?php
+		}
 	}
 
 	public static function export_lead_page() {
