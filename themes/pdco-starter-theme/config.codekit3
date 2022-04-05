@@ -164,18 +164,13 @@
       "oAP" : "\/page.php",
       "oF" : 0
     },
-    "\/screenshot.png" : {
-      "ft" : 32768,
-      "iS" : 30730,
+    "\/screenshot.png.replace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/screenshot.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "oAP" : "\/screenshot.png.replace",
+      "oF" : 0
     },
     "\/scripts\/compile.js" : {
       "bF" : 0,
@@ -556,7 +551,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 634835745.89357197,
-    "displayValue" : "gordy-theme",
+    "displayValue" : "pdco-starter-theme",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pale",
     "iconImageWasSetByUser" : 0
@@ -1848,7 +1843,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "pdco-gordy-health.local",
+    "externalServerAddress" : "pdco-starter-theme.local",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
